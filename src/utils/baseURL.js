@@ -3,7 +3,7 @@ const getBaseUrl = () => {
     const isDevelopment = process.env.NODE_ENV === 'development';
     
     // Return appropriate API URL based on environment
-    return isDevelopment ? "http://localhost:5001" : "https://api.yourproductionsite.com";
+    return isDevelopment ? "https://backend-book-bp85.onrender.com" : "https://api.yourproductionsite.com";
 }
 
 export default getBaseUrl;
